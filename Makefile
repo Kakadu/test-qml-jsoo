@@ -1,5 +1,5 @@
 OCAMLC=ocamlfind c -g -package js_of_ocaml.ppx
-JSOO_OPTS=--no-inline --source-map-inline --pretty --sourcemap #--debug=SECTION
+JSOO_OPTS=--no-inline --pretty #--source-map-inline --sourcemap #--debug=SECTION
 
 all: jscode.js
 
